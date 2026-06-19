@@ -3,25 +3,25 @@ class CcBashGuard < Formula
   homepage "https://github.com/tasuku43/cc-bash-guard"
   license "MIT"
 
-  version "0.2.13"
+  version "0.2.15"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tasuku43/cc-bash-guard/releases/download/v0.2.13/cc-bash-guard_v0.2.13_macos_arm64.tar.gz"
-      sha256 "ef977d8caf967091955f3e6e60ca01ed1155713b12fab92d922f1a22a392427e"
+      url "https://github.com/tasuku43/cc-bash-guard/releases/download/v0.2.15/cc-bash-guard_v0.2.15_macos_arm64.tar.gz"
+      sha256 "3967853201a5af571525e7067121989f32df12c01124451c07f21eee21adecbb"
     else
-      url "https://github.com/tasuku43/cc-bash-guard/releases/download/v0.2.13/cc-bash-guard_v0.2.13_macos_x64.tar.gz"
-      sha256 "8eada44643f0ab37e8bbb1404d5d4b7ea6c239970d93f48a46dc3a9dd260f877"
+      url "https://github.com/tasuku43/cc-bash-guard/releases/download/v0.2.15/cc-bash-guard_v0.2.15_macos_x64.tar.gz"
+      sha256 "db34fcc205ffd9c30394e198c1d47299073a42565c4f32d029f689ef2a64dc93"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tasuku43/cc-bash-guard/releases/download/v0.2.13/cc-bash-guard_v0.2.13_linux_arm64.tar.gz"
-      sha256 "c9f4404146eeb2d026fa584e00c10c5449b9fad56d8c121bbb1905cf5dc44f04"
+      url "https://github.com/tasuku43/cc-bash-guard/releases/download/v0.2.15/cc-bash-guard_v0.2.15_linux_arm64.tar.gz"
+      sha256 "1c89b0ede07479765b3ae9a895a87efb19d970295ac866d5c3fef624530c5ead"
     else
-      url "https://github.com/tasuku43/cc-bash-guard/releases/download/v0.2.13/cc-bash-guard_v0.2.13_linux_x64.tar.gz"
-      sha256 "535153f6649a596577a0ac83a9963532b76b870edf80d1daf228e1eb2865ac80"
+      url "https://github.com/tasuku43/cc-bash-guard/releases/download/v0.2.15/cc-bash-guard_v0.2.15_linux_x64.tar.gz"
+      sha256 "980a70cda753779c49790678d094c3c6a9ba7407fec29ad74ae54b4ec8daabd0"
     end
   end
 
@@ -33,4 +33,3 @@ class CcBashGuard < Formula
     system "#{bin}/cc-bash-guard", "version"
   end
 end
-
