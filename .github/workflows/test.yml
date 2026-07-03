@@ -21,7 +21,7 @@ jobs:
     needs: formula-syntax
     if: >-
       github.event_name == 'pull_request' &&
-      github.event.pull_request.user.login == 'app/tasuku43-homebrew-tap-writer' &&
+      github.event.pull_request.user.login == 'tasuku43-homebrew-tap-writer[bot]' &&
       github.event.pull_request.base.ref == 'main' &&
       startsWith(github.event.pull_request.head.ref, 'chore/homebrew-formula-v') &&
       startsWith(github.event.pull_request.title, 'Update Homebrew formula for v')
