@@ -3,25 +3,25 @@ class Vivi < Formula
   homepage "https://github.com/tasuku43/vivi"
   license "MIT"
 
-  version "0.0.25"
+  version "0.0.26"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tasuku43/vivi/releases/download/v0.0.25/vivi_Darwin_arm64.tar.gz"
-      sha256 "7f9c5109eaa586e86862f7f55e0d98f9b39fa60891e0dce32db4fcb0f3f2f34a"
+      url "https://github.com/tasuku43/vivi/releases/download/v0.0.26/vivi_Darwin_arm64.tar.gz"
+      sha256 "eb01b56849d08d33d2843033cfcf71f671670d3599e00e8290cefee5e6df1841"
     else
-      url "https://github.com/tasuku43/vivi/releases/download/v0.0.25/vivi_Darwin_x86_64.tar.gz"
-      sha256 "3b2afbb597fe537404627d8820e09c0fc1017dc8e28893273512f2a982bb7136"
+      url "https://github.com/tasuku43/vivi/releases/download/v0.0.26/vivi_Darwin_x86_64.tar.gz"
+      sha256 "7691992ad7c2904b5a343e30247eca69aaa8d79c4c354aa01f18d74d7428787f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tasuku43/vivi/releases/download/v0.0.25/vivi_Linux_arm64.tar.gz"
-      sha256 "7bb215c1778c5705f0b730348d8ce93f21ca08050d08fe1b5bdd85f31c9b5a1d"
+      url "https://github.com/tasuku43/vivi/releases/download/v0.0.26/vivi_Linux_arm64.tar.gz"
+      sha256 "2d8ba4fd6100b379ee59612f601f8aa0d15d96512a2774ca279f0e648d4437bf"
     else
-      url "https://github.com/tasuku43/vivi/releases/download/v0.0.25/vivi_Linux_x86_64.tar.gz"
-      sha256 "b46363b16702d243aca7c3bd9288f3497b3dc9dc9c73979b971648ce71331ddc"
+      url "https://github.com/tasuku43/vivi/releases/download/v0.0.26/vivi_Linux_x86_64.tar.gz"
+      sha256 "6d23e6cfe874256f3c0ddac69141b1bc78677555a04ef2f1f06ee775d00d3144"
     end
   end
 
