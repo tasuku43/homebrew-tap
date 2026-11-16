@@ -1,16 +1,15 @@
 class Cwk < Formula
   desc "Chatworkをタスク単位で操作するCLI。"
   homepage "https://github.com/tasuku43/cwk"
-  version "0.2.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tasuku43/cwk/releases/download/v0.2.4/cwk_v0.2.4_darwin_arm64.tar.gz"
-      sha256 "6b0bcb85fd1661188c2e630d50f4639436f857b8a97ed7ca206c69d1dc621e1b"
+      url "https://github.com/tasuku43/cwk/releases/download/v0.4.0/cwk_v0.4.0_darwin_arm64.tar.gz"
+      sha256 "adfcbe4290279be15f85d9b99e26b28af94052de5f4d353792029082c0cde376"
     else
-      url "https://github.com/tasuku43/cwk/releases/download/v0.2.4/cwk_v0.2.4_darwin_amd64.tar.gz"
-      sha256 "72233d0ddfe05f06fbc2287686b8617e174a1b81ebb485386bfcf5f30bc4d24d"
+      url "https://github.com/tasuku43/cwk/releases/download/v0.4.0/cwk_v0.4.0_darwin_amd64.tar.gz"
+      sha256 "d7fb380cb1ac511712a9444332f41ab387d7fb63e95da41d76964abfe155b11f"
     end
   end
 
